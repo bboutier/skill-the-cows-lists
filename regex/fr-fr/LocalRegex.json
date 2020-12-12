@@ -1,0 +1,24 @@
+{
+ "AddTask": ["ajouter (?P<taskName>.+)"],
+  "AddTaskToList": [
+    "ajoute (?P<taskName>.+) à (ma |la )liste (?P<listName>.+)$",
+    "ajoute (?P<taskName>.+) à la liste (?P<listName>.+)$"],
+ "FindTask": ["cherche (?P<taskName>.+)"],
+  "FindTaskOnList": [
+    "cherche (?P<taskName>.+) sur (ma|la) liste (?P<listName>.+) $",
+    "cherche (?P<taskName>.+) sur la liste (?P<listName>.+)$"],
+  "CompleteTask": ["termine (?!(tout))(?P<taskName>.+)"],
+  "CompleteTaskOnList": [
+    "termine (?P<taskName>.+) (sur |de )?(ma |la )?liste (?P<listName>.+)$",
+    "termine (?P<taskName>.+) (sur |de )?la liste (?P<listName>.+)$"],
+  "CompleteList" : [
+    "termine (tout |toutes les tâches )(de |sur )?(ma |la )?liste (?P<listName>.+)$",
+    "termine toutes les tâches (sur la |de la )?liste (?P<listName>.+)$"],
+  "CompleteAll": ["terminer toutes le(s)? tâche(s)?"],
+  "CompleteTaskInContext": ["termine (la|la tâche)$"],
+  "ReadList": ["lis (ma |la )?liste (?P<listName>.+)$",
+               "lis (la |ma )?liste (?P<listName>.+)$"],
+  "Read": ["lis (la |ma )?liste$"],
+  "DueOnList" : ["(qu'y a-t-il|qu'est-ce qu'il y a) (sur|dans) (ma|la) liste (?P<listName>.+) (?P<dueDate>.+)$"],
+  "Due" : ["(qu'y a-t-il|qu'est-ce qu'il y a) (de prévu |à faire |)(le|pour le|pour) (?P<dueDate>.+)$"]
+}

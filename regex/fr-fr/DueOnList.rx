@@ -1,0 +1,1 @@
+qu'y-a-t-il de prévu sur (ma|la) liste (?P<listName>.+) (pour|pour le|le) (?P<dueDate>(maintenant|hier|aujourd'hui|demain|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche))$

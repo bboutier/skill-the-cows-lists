@@ -1,0 +1,2 @@
+lis-moi (ma |la )?(?P<listName>.+)$
+lis la liste (?P<listName>.+)$

@@ -1,0 +1,2 @@
+ajoute (du |de la |des |)(?P<taskName>.+) à (ma |la )?liste (?P<listName>.+)$
+ajoute (du |de la |des |)(?P<taskName>.+) à la liste (?P<listName>.+)$
